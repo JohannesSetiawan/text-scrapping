@@ -16,7 +16,12 @@ _EXTRACTION_LABELS = {
 
 
 def main() -> None:
-    st.set_page_config(page_title="Text Scrapper", page_icon="🕸️", layout="wide")
+    st.set_page_config(
+        page_title="Text Scrapper",
+        page_icon="🕸️",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
 
     st.title("🕸️ Text Scrapper")
     st.caption(

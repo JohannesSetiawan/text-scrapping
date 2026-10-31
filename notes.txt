@@ -1,0 +1,42 @@
+I need to be able to generate front sprites, back sprites, and small icon versions. The sprites should maintain a consistent pixel art style, similar to what you'd find in classic Pokémon games (e.g., Generation 3-5).
+Here are the specific requirements for each type of sprite:
+
+1. Front Sprite:
+Perspective: Full body, facing slightly towards the viewer (3/4 view).
+Pose: Dynamic and characteristic of the Fakemon's personality or primary attack.
+Size: Must be 160x160 pixels.
+Detail: Clear outlines, distinct colors, and shading that suggests depth. No blurriness.
+Style: Pixel art, with visible individual pixels, but not overly blocky.
+Background: Transparent or a simple solid color that can be easily removed.
+
+2. Back Sprite:
+Perspective: Full body, facing away from the viewer (3/4 back view).
+Pose: Consistent with the front sprite's action or stance, but seen from behind.
+Size: Must be 160x160 pixels.
+Detail: Shows details of the Fakemon's back, tail, wings, or other features that would be visible from behind.
+Style: Pixel art, matching the front sprite's aesthetic.
+Background: Transparent or a simple solid color.
+
+3. Icon:
+Perspective: A simplified full body art of the Fakemon.
+Pose: Clear and recognizable, even at a small size.
+Size: 64x64 pixels.
+Detail: Highly simplified, using only essential colors and shapes. Must be instantly recognizable as the Fakemon. Must be full bodied
+Style: Pixel art, extremely clean and condensed.
+Background: Transparent.
+
+General Requirements for all Sprites:
+Consistency: All sprites for a single Fakemon (front, back, icon) must look like the same creature, even with different perspectives and levels of detail.
+Color Palette: Use a somewhat limited but vibrant color palette, typical of GBA/DS era Pokémon games.
+Clarity: All features should be clear and distinct, without muddiness.
+Format: Output should ideally be in a format suitable for pixel art, like PNG, with transparent backgrounds if specified.
+
+The prompt should allow me to specify details about the Fakemon, such as its:
+Name: (e.g., "Ignisaur")
+Typing: (e.g., "Fire/Dragon")
+Key Features: (e.g., "large wings, fiery tail, spiky armor, glowing eyes")
+Personality/Behavior: (e.g., "fierce and aggressive," "playful and curious," "calm and serene")
+Color Scheme: (e.g., "primary reds and oranges, secondary blacks and greys, accents of yellow")
+
+Example Prompt Structure I'm aiming for:
+"Generate a pixel art front sprite, back sprite, and icon for a Fakemon named [Fakemon Name]. It is a [Type 1]/[Type 2] Pokémon with [Key Features]. Its personality is [Personality/Behavior], and its primary colors are [Primary Colors] with [Secondary Colors] and [Accent Colors]. The sprites should be in the style of [Specific Pokémon Generation, e.g., 'Pokémon Emerald' or 'Pokémon Black/White']."
