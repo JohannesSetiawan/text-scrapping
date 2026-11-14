@@ -177,7 +177,7 @@ def render_icons(result: SpritePackage) -> None:
             f"{result.icons.width}×{result.icons.height} px · "
             f"{ICON_COPIES} × {ICON_SIZE}×{ICON_SIZE} px"
         ),
-        file_name=f"{result.number}_icons.png",
+        file_name=f"icon{result.number}.png",
         key="icons",
     )
 
